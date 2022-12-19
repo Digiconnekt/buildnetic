@@ -21,7 +21,6 @@ const Header = () => {
                   <li>
                     <span className="icon flaticon-big-envelope"></span>
                     <a href="mailto:Merix_itcompany@gmail.com">
-                      {" "}
                       Merix_itcompany@gmail.com
                     </a>
                   </li>
@@ -113,7 +112,7 @@ const Header = () => {
               </nav>
 
               <div className="outer-box clearfix">
-                <div className="cart-box">
+                {/* <div className="cart-box">
                   <div className="dropdown">
                     <button
                       className="cart-box-btn dropdown-toggle"
@@ -183,7 +182,7 @@ const Header = () => {
 
                 <div className="search-box-btn search-box-outer">
                   <span className="icon fa fa-search"></span>
-                </div>
+                </div> */}
 
                 <div className="btn-box">
                   <a href="contact.html" className="theme-btn btn-style-one">
