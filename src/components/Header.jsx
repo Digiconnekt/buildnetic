@@ -99,7 +99,7 @@ const Header = () => {
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <NavLink to="/">Success Stories</NavLink>
+                      <NavLink to="/success-stories">Success Stories</NavLink>
                     </li>
                     <li className="dropdown">
                       <NavLink to="/blog">Blog</NavLink>
