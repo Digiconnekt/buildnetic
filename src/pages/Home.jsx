@@ -53,17 +53,6 @@ const Home = () => {
               <div className="mt-4">
                 <div className="title">Our focus:</div>
                 <h1 className="mb-4">Building your tech team</h1>
-                <div className="clearfix">
-                  <a href="about.html" className="theme-btn btn-style-seven">
-                    <span className="txt">Lets Start</span>
-                  </a>
-                  <div className="phone-box">
-                    <span className="phone-icon fas fa-phone-alt"></span>
-                    <a className="phone" href="tel:+9999-000-999">
-                      9999 000 999
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -258,14 +247,12 @@ const Home = () => {
       <section className="services-section-two">
         <div className="auto-container">
           <div className="sec-title centered">
+            <div className="title">Technologies</div>
             <h2>Technologies we excel at</h2>
           </div>
           <div className="inner-container">
-            <div className="sec-title centered pt-5 mb-4">
-              <div className="title">Web Development</div>
-            </div>
             <div className="clearfix">
-              <div className="service-block-two col-lg-6 col-md-6 col-sm-12">
+              <div className="service-block-two col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="color-layer"></div>
                   <div
@@ -298,7 +285,7 @@ const Home = () => {
                   </h5>
                   <div className="text">
                     <span style={{ fontWeight: "bold" }}>Languages: </span>
-                    <br /> Java, HTML, CSS and JavaScript
+                    <br /> Java, HTML, CSS <br /> and JavaScript
                   </div>
                   <div className="text">
                     <span style={{ fontWeight: "bold" }}>
@@ -306,10 +293,14 @@ const Home = () => {
                     </span>
                     <br /> AngularJS, ReactJS, React Native, JQuery and Ionic
                   </div>
+                  <div className="text" style={{ opacity: "0" }}>
+                    <span style={{ fontWeight: "bold" }}>lorem:</span>
+                    <br /> lorem
+                  </div>
                 </div>
               </div>
 
-              <div className="service-block-two col-lg-6 col-md-6 col-sm-12">
+              <div className="service-block-two col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="color-layer"></div>
                   <div
@@ -351,20 +342,13 @@ const Home = () => {
                     <br /> Django, Ruby on Rails, Springboot, Flask, Laravel,
                     ExpressJS
                   </div>
+                  <div className="text" style={{ opacity: "0" }}>
+                    <span style={{ fontWeight: "bold" }}>lorem:</span>
+                    <br /> lorem
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section className="services-section-two mt-5">
-        <div className="auto-container">
-          <div className="inner-container">
-            <div className="sec-title centered pt-5 mb-4">
-              <div className="title">Mob Development</div>
-            </div>
-            <div className="clearfix">
               <div className="service-block-two col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="color-layer"></div>
@@ -398,7 +382,7 @@ const Home = () => {
                   </h5>
                   <div className="text">
                     <span style={{ fontWeight: "bold" }}>Languages: </span>
-                    <br /> Swift, Objective C and Swift UI
+                    <br /> Swift, Objective C <br /> and Swift UI
                   </div>
                   <div className="text">
                     <span style={{ fontWeight: "bold" }}>
@@ -410,7 +394,6 @@ const Home = () => {
                     <span style={{ fontWeight: "bold" }}>Software:</span>
                     <br /> Xcode
                   </div>
-                  <div style={{ opacity: "0" }}>Lorem ipsum dolor sit</div>
                 </div>
               </div>
 
@@ -512,15 +495,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section className="services-section-two mt-5">
-        <div className="auto-container">
-          <div className="inner-container">
-            <div className="clearfix">
               <div className="service-block-two col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="color-layer"></div>
@@ -555,6 +530,15 @@ const Home = () => {
                   <div className="text">
                     NLP, Chatbots, Image Processing, Amazon, Textract, ASR, OCR
                     and KNN Algorithm
+                  </div>
+                  <div className="text" style={{ opacity: "0" }}>
+                    <span style={{ fontWeight: "bold" }}>lorem:</span>
+                    <br /> Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Expedita.
+                  </div>
+                  <div className="text" style={{ opacity: "0" }}>
+                    <span style={{ fontWeight: "bold" }}>lorem:</span>
+                    <br /> Lorem, ipsum dolor sit amet consectetur
                   </div>
                 </div>
               </div>
@@ -594,6 +578,9 @@ const Home = () => {
                     Microsoft SQL Server, MongoDB, <br /> MySQL, Oracle
                     PostgreSQL and DynamoDB
                   </div>
+                  <div className="text" style={{ opacity: "0" }}>
+                    <span style={{ fontWeight: "bold" }}>lorem:</span>
+                  </div>
                 </div>
               </div>
 
@@ -632,18 +619,13 @@ const Home = () => {
                     AWS, Google Cloud, <br /> Docker, Jenkins <br /> and
                     Kubernetes
                   </div>
+                  <div className="text" style={{ opacity: "0" }}>
+                    <span style={{ fontWeight: "bold" }}>lorem:</span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section className="services-section-two mt-5">
-        <div className="auto-container">
-          <div className="inner-container">
-            <div className="clearfix">
-              <div className="service-block-two col-lg-6 col-md-6 col-sm-12">
+              <div className="service-block-two col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="color-layer"></div>
                   <div
@@ -685,7 +667,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="service-block-two col-lg-6 col-md-6 col-sm-12">
+              <div className="service-block-two col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="color-layer"></div>
                   <div
@@ -730,7 +712,366 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       {/* tech we are excel start */}
+
+      <section className="clients-section style-three">
+        <div className="auto-container">
+          <div className="sponsors-outer">
+            <ul className="sponsors-carousel owl-carousel owl-theme owl-loaded owl-drag">
+              <div className="owl-stage-outer">
+                <div
+                  className="owl-stage"
+                  style={{
+                    transform: "translate3d(0px, 0px, 0px)",
+                    transition: "all 0.5s ease 0s",
+                    width: "4212px",
+                  }}
+                >
+                  <div className="owl-item cloned" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/4.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item cloned" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/5.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item cloned" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/1.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item cloned" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/2.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item cloned" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/3.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item active" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/1.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item active" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/2.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item active" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/3.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item active" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/4.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item active" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/5.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/1.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/2.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/3.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item cloned" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/1.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item cloned" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/2.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item cloned" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/3.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item cloned" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/4.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                  <div className="owl-item cloned" style={{ width: "234px" }}>
+                    <li className="slide-item">
+                      <figure className="image-box">
+                        <a href="#">
+                          <img src="images/clients/5.png" alt="" />
+                        </a>
+                      </figure>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div className="owl-nav">
+                <div className="owl-prev">
+                  <span className="fa fa-angle-left"></span>
+                </div>
+                <div className="owl-next">
+                  <span className="fa fa-angle-right"></span>
+                </div>
+              </div>
+              <div className="owl-dots">
+                <div className="owl-dot active">
+                  <span></span>
+                </div>
+                <div className="owl-dot">
+                  <span></span>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section
+        className="call-to-action-section"
+        style={{ backgroundImage: "url(images/background/map-pattern.png)" }}
+      >
+        <div
+          className="circle-layer"
+          style={{ backgroundImage: "url(images/resource/cta-bg.png)" }}
+        ></div>
+        <div className="auto-container">
+          <div className="row clearfix">
+            <div className="title-column col-lg-6 col-md-12 col-sm-12">
+              <div className="inner-column">
+                <h2>Get in Touch</h2>
+                <div className="text">
+                  Make the Right Choice for Your Future. Choose Moto!
+                </div>
+                <a href="about.html" className="theme-btn btn-style-three">
+                  <span className="txt">Lets Start</span>
+                </a>
+              </div>
+            </div>
+
+            <div className="image-column col-lg-6 col-md-12 col-sm-12">
+              <div className="inner-column">
+                <div
+                  className="image titlt"
+                  data-tilt=""
+                  data-tilt-max="3"
+                  style={{ willChange: "transform" }}
+                >
+                  <img src="images/resource/cta.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="counter-section margin-top">
+        <div className="auto-container">
+          <div className="inner-container">
+            <div className="fact-counter">
+              <div className="row clearfix">
+                <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                  <div
+                    className="inner wow fadeInLeft animated"
+                    data-wow-delay="0ms"
+                    data-wow-duration="1500ms"
+                    style={{
+                      visibility: "visible",
+                      animationDuration: "1500ms",
+                      animationDelay: "0ms",
+                      animationName: "fadeInLeft",
+                    }}
+                  >
+                    <div className="content">
+                      <div className="count-outer count-box counted">
+                        <span
+                          className="count-text"
+                          data-speed="2500"
+                          data-stop="230"
+                        >
+                          230
+                        </span>
+                        +
+                      </div>
+                      <h4 className="counter-title">ACTIVE CLIENTS</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                  <div
+                    className="inner wow fadeInLeft animated"
+                    data-wow-delay="300ms"
+                    data-wow-duration="1500ms"
+                    style={{
+                      visibility: "visible",
+                      animationDuration: "1500ms",
+                      animationDelay: "300ms",
+                      animationName: "fadeInLeft",
+                    }}
+                  >
+                    <div className="content">
+                      <div className="count-outer count-box alternate counted">
+                        <span
+                          className="count-text"
+                          data-speed="2000"
+                          data-stop="95"
+                        >
+                          95
+                        </span>
+                        +
+                      </div>
+                      <h4 className="counter-title">TEAM ADVISORS</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                  <div
+                    className="inner wow fadeInLeft animated"
+                    data-wow-delay="600ms"
+                    data-wow-duration="1500ms"
+                    style={{
+                      visibility: "visible",
+                      animationDuration: "1500ms",
+                      animationDelay: "600ms",
+                      animationName: "fadeInLeft",
+                    }}
+                  >
+                    <div className="content">
+                      <div className="count-outer count-box counted">
+                        <span
+                          className="count-text"
+                          data-speed="4000"
+                          data-stop="820"
+                        >
+                          820
+                        </span>
+                        +
+                      </div>
+                      <h4 className="counter-title">PROJECTS DONE</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                  <div
+                    className="inner wow fadeInLeft animated"
+                    data-wow-delay="900ms"
+                    data-wow-duration="1500ms"
+                    style={{
+                      visibility: "visible",
+                      animationDuration: "1500ms",
+                      animationDelay: "900ms",
+                      animationName: "fadeInLeft",
+                    }}
+                  >
+                    <div className="content">
+                      <div className="count-outer count-box counted">
+                        <span
+                          className="count-text"
+                          data-speed="2000"
+                          data-stop="25"
+                        >
+                          25
+                        </span>
+                        +
+                      </div>
+                      <h4 className="counter-title">GLORIOUS YEARS</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* on boarding process start */}
       <section
@@ -802,6 +1143,182 @@ const Home = () => {
         </div>
       </section>
       {/* on boarding process end */}
+
+      <section className="news-section">
+        <div
+          className="pattern-layer"
+          style={{ backgroundImage: "url(images/resource/cta-bg.png)" }}
+        ></div>
+        <div className="auto-container">
+          <div className="sec-title">
+            <div className="clearfix">
+              <div className="pull-left">
+                <div className="title">OUR BLOG</div>
+                <h2>Our Latest Media</h2>
+                <div className="text">
+                  Our campaigns get your business in front of the right people
+                  at the <br /> right time to increase organic traffic and boost
+                  engagement.
+                </div>
+              </div>
+              <div className="pull-right">
+                <a href="blog.html" className="theme-btn btn-style-three">
+                  <span className="txt">All News</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="row clearfix">
+            <div className="news-block col-lg-4 col-md-6 col-sm-12">
+              <div
+                className="inner-box wow fadeInLeft animated"
+                data-wow-delay="0ms"
+                data-wow-duration="1500ms"
+                style={{
+                  visibility: "visible",
+                  animationDuration: "1500ms",
+                  animationDelay: "0ms",
+                  animationName: "fadeInLeft",
+                }}
+              >
+                <div className="image">
+                  <img src="images/resource/news-1.jpg" alt="" />
+                  <div className="overlay-box">
+                    <div className="overlay-inner">
+                      <div className="content">
+                        <a
+                          href="news-detail.html"
+                          className="icon flaticon-unlink"
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="lower-content">
+                  <ul className="post-meta">
+                    <li>
+                      <a href="news-detail.html">
+                        <span className="icon fa fa-user"></span> Pablo
+                        Villalpando
+                      </a>
+                    </li>
+                    <li>
+                      <a href="news-detail.html">
+                        <span className="icon fa fa-calendar"></span> November
+                        21, 2020
+                      </a>
+                    </li>
+                  </ul>
+                  <h5>
+                    <a href="news-detail.html">
+                      Google now disregards or overlooks all reciprocal links
+                    </a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="news-block col-lg-4 col-md-6 col-sm-12">
+              <div
+                className="inner-box wow fadeInUp animated"
+                data-wow-delay="0ms"
+                data-wow-duration="1500ms"
+                style={{
+                  visibility: "visible",
+                  animationDuration: "1500ms",
+                  animationDelay: "0ms",
+                  animationName: "fadeInUp",
+                }}
+              >
+                <div className="image">
+                  <img src="images/resource/news-2.jpg" alt="" />
+                  <div className="overlay-box">
+                    <div className="overlay-inner">
+                      <div className="content">
+                        <a
+                          href="news-detail.html"
+                          className="icon flaticon-unlink"
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="lower-content">
+                  <ul className="post-meta">
+                    <li>
+                      <a href="news-detail.html">
+                        <span className="icon fa fa-user"></span> Pablo
+                        Villalpando
+                      </a>
+                    </li>
+                    <li>
+                      <a href="news-detail.html">
+                        <span className="icon fa fa-calendar"></span> November
+                        21, 2020
+                      </a>
+                    </li>
+                  </ul>
+                  <h5>
+                    <a href="news-detail.html">
+                      Absolute Links vs. Relative Links – SEO Intrinsic Value
+                    </a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="news-block col-lg-4 col-md-6 col-sm-12">
+              <div
+                className="inner-box wow fadeInRight animated"
+                data-wow-delay="0ms"
+                data-wow-duration="1500ms"
+                style={{
+                  visibility: "visible",
+                  animationDuration: "1500ms",
+                  animationDelay: "0ms",
+                  animationName: "fadeInRight",
+                }}
+              >
+                <div className="image">
+                  <img src="images/resource/news-3.jpg" alt="" />
+                  <div className="overlay-box">
+                    <div className="overlay-inner">
+                      <div className="content">
+                        <a
+                          href="news-detail.html"
+                          className="icon flaticon-unlink"
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="lower-content">
+                  <ul className="post-meta">
+                    <li>
+                      <a href="news-detail.html">
+                        <span className="icon fa fa-user"></span> Pablo
+                        Villalpando
+                      </a>
+                    </li>
+                    <li>
+                      <a href="news-detail.html">
+                        <span className="icon fa fa-calendar"></span> November
+                        21, 2020
+                      </a>
+                    </li>
+                  </ul>
+                  <h5>
+                    <a href="news-detail.html">
+                      How to increase your ROI through scientific SEM?
+                    </a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
