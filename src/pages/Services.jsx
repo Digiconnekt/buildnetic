@@ -409,6 +409,160 @@ const Services = () => {
       </section>
       {/* technical expertise end */}
 
+      <section class="counter-section-three">
+        <div class="auto-container">
+          <div class="row clearfix">
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <div
+                  class="image titlt"
+                  data-tilt=""
+                  data-tilt-max="3"
+                  style={{
+                    willChange: "transform",
+                    transform: "perspective(300px) rotateX(0deg) rotateY(0deg)",
+                  }}
+                >
+                  <img src="images/resource/counter.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="counter-column col-lg-6 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <div class="sec-title">
+                  <div class="title">Some Facts</div>
+                  <h2>
+                    Our Trusted User to <br /> See you Funfacts
+                  </h2>
+                </div>
+                <div class="text">
+                  Why I say old chap that is spiffing barney, nancy boy bleeder
+                  chimney pot Richard cheers the little rotter so I said, easy
+                  peasy buggered blower bevvy A bit of how's your father he
+                  nicked it arse over tit.
+                </div>
+
+                <div class="fact-counter-three">
+                  <div class="row clearfix">
+                    <div class="column counter-column col-lg-6 col-md-6 col-sm-12">
+                      <div
+                        class="inner wow fadeInLeft animated"
+                        data-wow-delay="0ms"
+                        data-wow-duration="1500ms"
+                        style={{
+                          visibility: "visible",
+                          animationDuration: "1500ms",
+                          animationDelay: "0ms",
+                          animationName: "fadeInLeft",
+                        }}
+                      >
+                        <div class="content">
+                          <div class="count-outer count-box counted">
+                            <span
+                              class="count-text"
+                              data-speed="2500"
+                              data-stop="8"
+                            >
+                              8
+                            </span>
+                            M+
+                          </div>
+                          <h4 class="counter-title">Projects Done</h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="column counter-column col-lg-6 col-md-6 col-sm-12">
+                      <div
+                        class="inner wow fadeInLeft animated"
+                        data-wow-delay="300ms"
+                        data-wow-duration="1500ms"
+                        style={{
+                          visibility: "visible",
+                          animationDuration: "1500ms",
+                          animationDelay: "300ms",
+                          animationName: "fadeInLeft",
+                        }}
+                      >
+                        <div class="content">
+                          <div class="count-outer count-box alternate counted">
+                            <span
+                              class="count-text"
+                              data-speed="2000"
+                              data-stop="100"
+                            >
+                              100
+                            </span>
+                            K
+                          </div>
+                          <h4 class="counter-title">Happy Clients</h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="column col-lg-offset-2 counter-column col-lg-6 col-md-6 col-sm-12">
+                      <div
+                        class="inner wow fadeInLeft animated"
+                        data-wow-delay="600ms"
+                        data-wow-duration="1500ms"
+                        style={{
+                          visibility: "visible",
+                          animationDuration: "1500ms",
+                          animationDelay: "600ms",
+                          animationName: "fadeInLeft",
+                        }}
+                      >
+                        <div class="content">
+                          <div class="count-outer count-box counted">
+                            <span
+                              class="count-text"
+                              data-speed="4000"
+                              data-stop="1240"
+                            >
+                              1240
+                            </span>
+                          </div>
+                          <h4 class="counter-title">Ratings Customer</h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="column counter-column col-lg-6 col-md-6 col-sm-12">
+                      <div
+                        class="inner wow fadeInLeft animated"
+                        data-wow-delay="900ms"
+                        data-wow-duration="1500ms"
+                        style={{
+                          visibility: "visible",
+                          animationDuration: "1500ms",
+                          animationDelay: "900ms",
+                          animationName: "fadeInLeft",
+                        }}
+                      >
+                        <div class="content">
+                          <div class="count-outer count-box counted">
+                            <span
+                              class="count-text"
+                              data-speed="2000"
+                              data-stop="120"
+                            >
+                              120
+                            </span>
+                            +
+                          </div>
+                          <h4 class="counter-title">Award Winner</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* development process start */}
       <section
         className="steps-section"

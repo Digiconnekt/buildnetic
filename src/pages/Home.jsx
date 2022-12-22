@@ -281,26 +281,27 @@ const Home = () => {
                     ></div>
                   </div>
                   <h5>
-                    <a href="#">Frontend Development</a>
+                    <a href="#">Web Development</a>
                   </h5>
                   <div className="text">
                     <span style={{ fontWeight: "bold" }}>Languages: </span>
-                    <br /> Java, HTML, CSS <br /> and JavaScript
+                    <br /> Java, HTML, CSS, JavaScript, PHP, Ruby, C#, C++,
+                    Python and Node.js
                   </div>
                   <div className="text">
                     <span style={{ fontWeight: "bold" }}>
                       Frameworks & Library:
                     </span>
-                    <br /> AngularJS, ReactJS, React Native, JQuery and Ionic
+                    <br /> AngularJS, ReactJS, React Native, JQuery, Ionic,
+                    Django, Ruby on Rails, Springboot, Flask, Laravel, ExpressJS
                   </div>
                   <div className="text" style={{ opacity: "0" }}>
                     <span style={{ fontWeight: "bold" }}>lorem:</span>
-                    <br /> lorem
                   </div>
                 </div>
               </div>
 
-              <div className="service-block-two col-lg-4 col-md-6 col-sm-12">
+              {/* <div className="service-block-two col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="color-layer"></div>
                   <div
@@ -347,7 +348,7 @@ const Home = () => {
                     <br /> lorem
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="service-block-two col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
@@ -488,11 +489,6 @@ const Home = () => {
                     </span>
                     <br /> Flutter, Ionic, React Native <br /> and Xamarin
                   </div>
-                  <div className="text" style={{ opacity: "0" }}>
-                    <span style={{ fontWeight: "bold" }}>Software:</span>
-                    <br /> Andriod Studio, Greenrobot, Eventbus and Sweet Alert
-                    Dialog
-                  </div>
                 </div>
               </div>
 
@@ -533,12 +529,7 @@ const Home = () => {
                   </div>
                   <div className="text" style={{ opacity: "0" }}>
                     <span style={{ fontWeight: "bold" }}>lorem:</span>
-                    <br /> Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Expedita.
-                  </div>
-                  <div className="text" style={{ opacity: "0" }}>
-                    <span style={{ fontWeight: "bold" }}>lorem:</span>
-                    <br /> Lorem, ipsum dolor sit amet consectetur
+                    <br /> lorem
                   </div>
                 </div>
               </div>
@@ -580,6 +571,7 @@ const Home = () => {
                   </div>
                   <div className="text" style={{ opacity: "0" }}>
                     <span style={{ fontWeight: "bold" }}>lorem:</span>
+                    <br /> lorem
                   </div>
                 </div>
               </div>
@@ -1066,6 +1058,54 @@ const Home = () => {
                       <h4 className="counter-title">GLORIOUS YEARS</h4>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="newsletter-section mt-5">
+        <div className="auto-container">
+          <div className="row clearfix">
+            <div className="form-column col-lg-6 col-md-12 col-sm-12">
+              <div className="inner-column">
+                <div className="sec-title">
+                  <div className="title">Newsletter</div>
+                  <h2>Subscribe Our Newsletter</h2>
+                </div>
+                <div className="text">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit donec
+                  tempus pellentesque dui vel tristique purus justo{" "}
+                </div>
+                <div className="newsletter-form">
+                  <form method="post" action="contact.html">
+                    <div className="form-group">
+                      <input
+                        type="email"
+                        name="email"
+                        value=""
+                        placeholder="Enter Your Email"
+                        required=""
+                        fdprocessedid="zqjhk"
+                      />
+                      <button
+                        type="submit"
+                        className="theme-btn btn-style-three"
+                        fdprocessedid="onz4o6"
+                      >
+                        <span className="txt">Subscribe Now</span>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div className="image-column col-lg-6 col-md-12 col-sm-12">
+              <div className="inner-column">
+                <div className="image titlt" data-tilt="" data-tilt-max="3">
+                  <img src="images/resource/newsletter.png" alt="" />
                 </div>
               </div>
             </div>

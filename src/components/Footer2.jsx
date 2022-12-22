@@ -3,7 +3,7 @@ import React from "react";
 const Footer2 = () => {
   return (
     <>
-      <footer className="main-footer">
+      <footer className="main-footer style-two">
         <div
           className="pattern-layer"
           style={{ backgroundImage: "url(images/background/pattern-3.png)" }}

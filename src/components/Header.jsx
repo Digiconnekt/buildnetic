@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -34,9 +33,9 @@ const Header = () => {
           <div className="auto-container clearfix">
             <div className="pull-left logo-box">
               <div className="logo">
-                <NavLink to="/">
+                <a href="/">
                   <img src="images/logo-2.png" alt="" title="" />
-                </NavLink>
+                </a>
               </div>
             </div>
 
@@ -67,13 +66,13 @@ const Header = () => {
                 >
                   <ul className="navigation clearfix">
                     <li className="current dropdown">
-                      <NavLink to="/">Home</NavLink>
+                      <a href="/">Home</a>
                     </li>
                     <li className="dropdown">
-                      <NavLink to="/about">About</NavLink>
+                      <a href="/about">About</a>
                     </li>
                     <li className="dropdown">
-                      <NavLink to="/services">Services</NavLink>
+                      <a href="/services">Services</a>
                       <ul>
                         <li>
                           <a href="services.html">Services</a>
@@ -99,13 +98,13 @@ const Header = () => {
                       </ul>
                     </li>
                     <li className="dropdown">
-                      <NavLink to="/success-stories">Success Stories</NavLink>
+                      <a href="/success-stories">Success Stories</a>
                     </li>
                     <li className="dropdown">
-                      <NavLink to="/blog">Blog</NavLink>
+                      <a href="/blog">Blog</a>
                     </li>
                     <li>
-                      <NavLink to="/contact">Contact Us</NavLink>
+                      <a href="/contact">Contact Us</a>
                     </li>
                   </ul>
                 </div>
