@@ -1,39 +1,11 @@
 import React from "react";
+import Title from "../components/Title";
 
 const Services = () => {
   return (
     <>
       {/* title start */}
-      <section
-        className="page-title"
-        style={{ backgroundImage: "url(images/background/pattern-16.png)" }}
-      >
-        <div
-          className="pattern-layer-one"
-          style={{ backgroundImage: "url(images/main-slider/pattern-1.png)" }}
-        ></div>
-        <div
-          className="pattern-layer-two"
-          style={{ backgroundImage: "url(images/background/pattern-17.png)" }}
-        ></div>
-        <div
-          className="pattern-layer-three"
-          style={{ backgroundImage: "url(images/background/pattern-18.png)" }}
-        ></div>
-        <div
-          className="pattern-layer-four"
-          style={{ backgroundImage: "url(images/icons/cross-icon.png)" }}
-        ></div>
-        <div className="auto-container">
-          <h2>Services</h2>
-          <ul className="page-breadcrumb">
-            <li>
-              <a href="index.html">home</a>
-            </li>
-            <li>Services</li>
-          </ul>
-        </div>
-      </section>
+      <Title title="Services" />
       {/* title end */}
 
       {/* services offering start */}
@@ -71,14 +43,16 @@ const Services = () => {
                   ></div>
                 </div>
                 <h5>
-                  <a href="content-marketing.html">Content Marketing</a>
+                  <a href="/services/product-engineering-services">
+                    Product Engineering
+                  </a>
                 </h5>
                 <div className="text">
-                  You can provide the answers that your potential customers are
-                  trying to find, so you can become the industry.
+                  Building scalable secure products <br /> by leveraging cutting
+                  edge <br /> technologies
                 </div>
                 <a
-                  href="content-marketing.html"
+                  href="/services/product-engineering-services"
                   className="arrow-icon flaticon-arrow-pointing-to-right"
                 ></a>
               </div>
@@ -111,14 +85,14 @@ const Services = () => {
                   ></div>
                 </div>
                 <h5>
-                  <a href="content-marketing.html">Social Marketing</a>
+                  <a href="/services/mobility-services">Mobility</a>
                 </h5>
                 <div className="text">
-                  Create and manage top-performing social campaigns and start
-                  developing a dedicated customer fan base.
+                  We build mobility solutions that give a user experience close
+                  to real life systems
                 </div>
                 <a
-                  href="content-marketing.html"
+                  href="/services/mobility-services"
                   className="arrow-icon flaticon-arrow-pointing-to-right"
                 ></a>
               </div>
@@ -151,14 +125,16 @@ const Services = () => {
                   ></div>
                 </div>
                 <h5>
-                  <a href="content-marketing.html">SEO Optimization</a>
+                  <a href="/services/anlytics-services">Analytics</a>
                 </h5>
                 <div className="text">
-                  Get more website traffic, more customers, and more online
-                  visibility with powerful SEO services.
+                  Bringing Order in a world of Chaos{" "}
+                  <span style={{ opacity: "0" }}>
+                    lorem <br /> lorem
+                  </span>
                 </div>
                 <a
-                  href="content-marketing.html"
+                  href="/services/anlytics-services"
                   className="arrow-icon flaticon-arrow-pointing-to-right"
                 ></a>
               </div>
@@ -191,14 +167,15 @@ const Services = () => {
                   ></div>
                 </div>
                 <h5>
-                  <a href="content-marketing.html">App Development</a>
+                  <a href="/services/cloud-and-devops-services">
+                    Cloud & DevOps
+                  </a>
                 </h5>
                 <div className="text">
-                  Create, publish, and promote engaging content to generate more
-                  traffic and build a dedicated community.
+                  Have a well defined strategy for your Business's cloud journey
                 </div>
                 <a
-                  href="content-marketing.html"
+                  href="/services/cloud-and-devops-services"
                   className="arrow-icon flaticon-arrow-pointing-to-right"
                 ></a>
               </div>
@@ -231,14 +208,13 @@ const Services = () => {
                   ></div>
                 </div>
                 <h5>
-                  <a href="content-marketing.html">Web Development</a>
+                  <a href="/services/reengineering-services">Re-Engineering</a>
                 </h5>
                 <div className="text">
-                  Your website has to impress your visitors within just a few
-                  seconds. If it runs slow, if it feels outdated.
+                  Revamp, Recreate and Innovate you legacy systems
                 </div>
                 <a
-                  href="content-marketing.html"
+                  href="/services/reengineering-services"
                   className="arrow-icon flaticon-arrow-pointing-to-right"
                 ></a>
               </div>
@@ -271,14 +247,13 @@ const Services = () => {
                   ></div>
                 </div>
                 <h5>
-                  <a href="content-marketing.html">PPC Advertising</a>
+                  <a href="/services/testing-services">Testing</a>
                 </h5>
                 <div className="text">
-                  You can provide the answers that your potential customers are
-                  trying to find, so you can become the industry.
+                  Only Tested can be Trusted. Trust our testing services.
                 </div>
                 <a
-                  href="content-marketing.html"
+                  href="/services/testing-services"
                   className="arrow-icon flaticon-arrow-pointing-to-right"
                 ></a>
               </div>

@@ -4,7 +4,115 @@ const Home = () => {
   return (
     <>
       {/* banner start */}
-      <section className="banner-section-two">
+      <section className="banner-section-three">
+        <div
+          className="icon-layer-one"
+          style={{ backgroundImage: "url(images/icons/icon-16.png)" }}
+        ></div>
+        <div
+          className="icon-layer-two"
+          style={{ backgroundImage: "url(images/icons/icon-17.png)" }}
+        ></div>
+        <div
+          className="icon-layer-three"
+          style={{ backgroundImage: "url(images/background/pattern-12.png)" }}
+        ></div>
+        {/* <ul className="social-box">
+          <li>
+            <a href="#" className="fa fa-facebook-f"></a>
+          </li>
+          <li>
+            <a href="#" className="fa fa-linkedin"></a>
+          </li>
+          <li>
+            <a href="#" className="fa fa-twitter"></a>
+          </li>
+          <li>
+            <a href="#" className="fa fa-google"></a>
+          </li>
+        </ul> */}
+
+        <div className="auto-container">
+          <div className="row clearfix">
+            <div className="content-column col-lg-6 col-md-12 col-sm-12">
+              <div className="inner-column">
+                <h1 style={{ marginTop: "10px" }}>
+                  Compiling your ideas, to generate desired solutions
+                </h1>
+                {/* <div className="text">
+                  World leading reliable research &amp; AI based Data Analytics
+                  solutions for Big Data companies and consumer business
+                  products
+                </div> */}
+                {/* <div className="clearfix">
+                  <a
+                    href="https://www.youtube.com/watch?v=kxPCFljwJws"
+                    className="lightbox-image video-box"
+                  >
+                    <span className="fa fa-play">
+                      <i className="ripple"></i>
+                    </span>{" "}
+                    WATCH VIDEO
+                  </a>
+                  <a href="about.html" className="theme-btn btn-style-three">
+                    <span className="txt">about us</span>
+                  </a>
+                </div> */}
+              </div>
+            </div>
+
+            <div className="image-column col-lg-6 col-md-12 col-sm-12">
+              <div className="inner-column">
+                <div className="image">
+                  <img src="images/resource/banner-2.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <svg
+            className="waves"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28"
+            preserveAspectRatio="none"
+            shapeRendering="auto"
+          >
+            <defs>
+              <path
+                id="gentle-wave"
+                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+              ></path>
+            </defs>
+            <g className="parallax">
+              <use
+                xlinkHref="#gentle-wave"
+                x="48"
+                y="0"
+                fill="rgba(255,255,255,0.7"
+              ></use>
+              <use
+                xlinkHref="#gentle-wave"
+                x="48"
+                y="3"
+                fill="rgba(255,255,255,0.5)"
+              ></use>
+              <use
+                xlinkHref="#gentle-wave"
+                x="48"
+                y="5"
+                fill="rgba(255,255,255,0.3)"
+              ></use>
+              <use xlinkHref="#gentle-wave" x="48" y="7" fill="#fff"></use>
+            </g>
+          </svg>
+        </div>
+      </section>
+      {/* banner end */}
+
+      {/* banner start */}
+      {/* <section className="banner-section-two">
         <div className="auto-container">
           <div className="row clearfix">
             <div className="image-column col-lg-6 col-md-12 col-sm-12">
@@ -57,7 +165,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* banner end */}
 
       {/* we provide engg start */}
@@ -200,6 +308,7 @@ const Home = () => {
       </section>
       {/* we provide engg end */}
 
+      {/* take to next level start */}
       <section
         className="call-to-action-section-two"
         style={{ backgroundImage: "url(images/background/map-pattern-1.png)" }}
@@ -236,12 +345,117 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* take to next level end */}
 
       {/* clients start */}
       {/* clients end */}
 
-      {/* choose right start */}
-      {/* choose right end */}
+      {/* engagement model start */}
+      <section className="newsletter-section mt-5">
+        <div className="auto-container">
+          <div className="sec-title centered">
+            <div className="title">Model</div>
+            <h2>Choose the right engagement model</h2>
+          </div>
+          <div className="table-responsive">
+            <table className="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col" className="table-active"></th>
+                  <th scope="col" className="table-active">
+                    <h6 style={{ fontWeight: "500" }}>Offshore Dev Center</h6>
+                  </th>
+                  <th scope="col" className="table-active">
+                    <h6 style={{ fontWeight: "500" }}>Dedicated Engineers</h6>
+                  </th>
+                  <th scope="col" className="table-active">
+                    <h6 style={{ fontWeight: "500" }}>Project Team</h6>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" className="table-active">
+                    <h6 style={{ fontWeight: "500" }}>Best for</h6>
+                  </th>
+                  <td>Setting up a team of min 3 FTE</td>
+                  <td>Scaling your in-house tech team</td>
+                  <td>Hiring team for a defined project</td>
+                </tr>
+                <tr>
+                  <th scope="row" className="table-active">
+                    <h6 style={{ fontWeight: "500" }}>Team</h6>
+                  </th>
+                  <td>Custom as per technical skill requirement</td>
+                  <td>Custom as per technical skill requirement</td>
+                  <td>
+                    Full-Time: 1 Backend, 1 Frontend, 1 Testing Part-time:
+                    Architect, Designer, DevOps, PM
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="table-active">
+                    <h6 style={{ fontWeight: "500" }}>Min engagement period</h6>
+                  </th>
+                  <td>6 Months</td>
+                  <td>3 Months</td>
+                  <td>3 Months</td>
+                </tr>
+                <tr>
+                  <th scope="row" className="table-active">
+                    <h6 style={{ fontWeight: "500" }}>Min engagement period</h6>
+                  </th>
+                  <td colSpan="3">
+                    100% flexibility to ramp up or ramp down the team, Easy
+                    replacement
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row" className="table-active">
+                    <h6 style={{ fontWeight: "500" }}>Ramp up time</h6>
+                  </th>
+                  <td>15-30 days</td>
+                  <td>7-14 days</td>
+                  <td>1-14 days</td>
+                </tr>
+                <tr>
+                  <th scope="row" className="table-active">
+                    <h6 style={{ fontWeight: "500" }}>Ramp down time</h6>
+                  </th>
+                  <td>60 days</td>
+                  <td>30 days</td>
+                  <td>30 days</td>
+                </tr>
+                <tr>
+                  <th scope="row" className="table-active">
+                    <h6 style={{ fontWeight: "500" }}>
+                      Cost savings on US rates
+                    </h6>
+                  </th>
+                  <td>Min 60%</td>
+                  <td>Min 50%</td>
+                  <td>Min 50%</td>
+                </tr>
+                <tr>
+                  <th scope="row" className="table-active">
+                    <h6 style={{ fontWeight: "500" }}>Pricing</h6>
+                  </th>
+                  <td>Starts from $2400 monthly rate</td>
+                  <td>Starts from $3000 monthly rate</td>
+                  <td>$8999 per month</td>
+                </tr>
+                <tr>
+                  <th scope="row" className="table-active">
+                    <h6 style={{ fontWeight: "500" }}>Support</h6>
+                  </th>
+                  <td colSpan="3">24 X 7 Support - Email and Chat</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      {/* engagement model end */}
 
       {/* tech we are excel start */}
       <section className="services-section-two">
@@ -704,9 +918,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       {/* tech we are excel start */}
 
+      {/* clients start */}
       <section className="clients-section style-three">
         <div className="auto-container">
           <div className="sponsors-outer">
@@ -904,7 +1118,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* clients end */}
 
+      {/* get in touch start */}
       <section
         className="call-to-action-section"
         style={{ backgroundImage: "url(images/background/map-pattern.png)" }}
@@ -942,7 +1158,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* get in touch end */}
 
+      {/* counter start */}
       <section className="counter-section margin-top">
         <div className="auto-container">
           <div className="inner-container">
@@ -1064,7 +1282,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* counter end */}
 
+      {/* newsletter start */}
       <section className="newsletter-section mt-5">
         <div className="auto-container">
           <div className="row clearfix">
@@ -1084,7 +1304,6 @@ const Home = () => {
                       <input
                         type="email"
                         name="email"
-                        value=""
                         placeholder="Enter Your Email"
                         required=""
                         fdprocessedid="zqjhk"
@@ -1112,6 +1331,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* newsletter end */}
 
       {/* on boarding process start */}
       <section
@@ -1184,6 +1404,7 @@ const Home = () => {
       </section>
       {/* on boarding process end */}
 
+      {/* blog start */}
       <section className="news-section">
         <div
           className="pattern-layer"
@@ -1359,6 +1580,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* blog end */}
     </>
   );
 };

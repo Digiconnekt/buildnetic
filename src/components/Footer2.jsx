@@ -6,15 +6,15 @@ const Footer2 = () => {
       <footer className="main-footer style-two">
         <div
           className="pattern-layer"
-          style={{ backgroundImage: "url(images/background/pattern-3.png)" }}
+          style={{ backgroundImage: "url(../images/background/pattern-3.png)" }}
         ></div>
         <div
           className="pattern-layer-two"
-          style={{ backgroundImage: "url(images/background/pattern-4.png)" }}
+          style={{ backgroundImage: "url(../images/background/pattern-4.png)" }}
         ></div>
         <div
           className="pattern-layer-three"
-          style={{ backgroundImage: "url(images/background/pattern-5.png)" }}
+          style={{ backgroundImage: "url(../images/background/pattern-5.png)" }}
         ></div>
         <div className="auto-container">
           <div className="widgets-section">
@@ -25,7 +25,7 @@ const Footer2 = () => {
                     <div className="footer-widget logo-widget">
                       <div className="logo">
                         <a href="index.html">
-                          <img src="images/logo.png" alt="" />
+                          <img src="../images/logo.png" alt="" />
                         </a>
                       </div>
                       <div className="text">
@@ -84,7 +84,7 @@ const Footer2 = () => {
                         <div className="images-outer clearfix">
                           <figure className="image-box">
                             <a
-                              href="images/gallery/1.jpg"
+                              href="../images/gallery/1.jpg"
                               className="lightbox-image"
                               data-fancybox="footer-gallery"
                               title="Image Title Here"
@@ -98,70 +98,70 @@ const Footer2 = () => {
                           </figure>
                           <figure className="image-box">
                             <a
-                              href="images/gallery/2.jpg"
+                              href="../images/gallery/2.jpg"
                               className="lightbox-image"
                               data-fancybox="footer-gallery"
                               title="Image Title Here"
                               data-fancybox-group="footer-gallery"
                             >
                               <img
-                                src="images/gallery/footer-gallery-thumb-2.jpg"
+                                src="../images/gallery/footer-gallery-thumb-2.jpg"
                                 alt=""
                               />
                             </a>
                           </figure>
                           <figure className="image-box">
                             <a
-                              href="images/gallery/3.jpg"
+                              href="../images/gallery/3.jpg"
                               className="lightbox-image"
                               data-fancybox="footer-gallery"
                               title="Image Title Here"
                               data-fancybox-group="footer-gallery"
                             >
                               <img
-                                src="images/gallery/footer-gallery-thumb-3.jpg"
+                                src="../images/gallery/footer-gallery-thumb-3.jpg"
                                 alt=""
                               />
                             </a>
                           </figure>
                           <figure className="image-box">
                             <a
-                              href="images/gallery/4.jpg"
+                              href="../images/gallery/4.jpg"
                               className="lightbox-image"
                               data-fancybox="footer-gallery"
                               title="Image Title Here"
                               data-fancybox-group="footer-gallery"
                             >
                               <img
-                                src="images/gallery/footer-gallery-thumb-4.jpg"
+                                src="../images/gallery/footer-gallery-thumb-4.jpg"
                                 alt=""
                               />
                             </a>
                           </figure>
                           <figure className="image-box">
                             <a
-                              href="images/gallery/1.jpg"
+                              href="../images/gallery/1.jpg"
                               className="lightbox-image"
                               data-fancybox="footer-gallery"
                               title="Image Title Here"
                               data-fancybox-group="footer-gallery"
                             >
                               <img
-                                src="images/gallery/footer-gallery-thumb-5.jpg"
+                                src="../images/gallery/footer-gallery-thumb-5.jpg"
                                 alt=""
                               />
                             </a>
                           </figure>
                           <figure className="image-box">
                             <a
-                              href="images/gallery/2.jpg"
+                              href="../images/gallery/2.jpg"
                               className="lightbox-image"
                               data-fancybox="footer-gallery"
                               title="Image Title Here"
                               data-fancybox-group="footer-gallery"
                             >
                               <img
-                                src="images/gallery/footer-gallery-thumb-6.jpg"
+                                src="../images/gallery/footer-gallery-thumb-6.jpg"
                                 alt=""
                               />
                             </a>

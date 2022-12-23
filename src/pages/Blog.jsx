@@ -1,38 +1,12 @@
 import React from "react";
+import Title from "../components/Title";
 
 const Blog = () => {
   return (
     <>
-      <section
-        className="page-title"
-        style={{ backgroundImage: "url(images/background/pattern-16.png)" }}
-      >
-        <div
-          className="pattern-layer-one"
-          style={{ backgroundImage: "url(images/main-slider/pattern-1.png)" }}
-        ></div>
-        <div
-          className="pattern-layer-two"
-          style={{ backgroundImage: "url(images/background/pattern-17.png)" }}
-        ></div>
-        <div
-          className="pattern-layer-three"
-          style={{ backgroundImage: "url(images/background/pattern-18.png)" }}
-        ></div>
-        <div
-          className="pattern-layer-four"
-          style={{ backgroundImage: "url(images/icons/cross-icon.png)" }}
-        ></div>
-        <div className="auto-container">
-          <h2>Blog</h2>
-          <ul className="page-breadcrumb">
-            <li>
-              <a href="index.html">home</a>
-            </li>
-            <li>Blogs</li>
-          </ul>
-        </div>
-      </section>
+      {/* title start */}
+      <Title title="Blog" />
+      {/* title end */}
 
       <div className="sidebar-page-container">
         <div className="auto-container">

@@ -22,50 +22,56 @@ const Error = () => {
 
   return (
     <>
-      {/* <section
+      <section
         className="page-title"
-        style={{ backgroundImage: "url(images/background/pattern-16.png)" }}
+        style={{ backgroundImage: "url(../images/background/pattern-16.png)" }}
       >
         <div
           className="pattern-layer-one"
-          style={{ backgroundImage: "url(images/main-slider/pattern-1.png)" }}
+          style={{
+            backgroundImage: "url(../images/main-slider/pattern-1.png)",
+          }}
         ></div>
         <div
           className="pattern-layer-two"
-          style={{ backgroundImage: "url(images/background/pattern-17.png)" }}
+          style={{
+            backgroundImage: "url(../images/background/pattern-17.png)",
+          }}
         ></div>
         <div
           className="pattern-layer-three"
-          style={{ backgroundImage: "url(images/background/pattern-18.png)" }}
+          style={{
+            backgroundImage: "url(../images/background/pattern-18.png)",
+          }}
         ></div>
         <div
           className="pattern-layer-four"
-          style={{ backgroundImage: "url(images/icons/cross-icon.png)" }}
+          style={{ backgroundImage: "url(../images/icons/cross-icon.png)" }}
         ></div>
         <div className="auto-container">
-          <h2>Not Found</h2>
+          <h2>Page Not Found</h2>
           <ul className="page-breadcrumb">
             <li>
-              <a href="index.html">home</a>
+              <a href="/">home</a>
             </li>
             <li>404</li>
           </ul>
         </div>
-      </section> */}
+      </section>
 
       <section className="error-section">
         <div className="auto-container">
           <div className="content">
             <div className="error-image">
-              <img src="images/resource/error.png" alt="" />
+              <img src="../images/resource/error.png" alt="" />
             </div>
             <h2>Oops.... Page Not Found</h2>
             <div className="text">
               Sorry, but the page you are looking for does not existing
             </div>
-            <NavLink style={style} to="/" className="theme-btn btn-style-five">
+            <a style={style} href="/" className="theme-btn btn-style-five">
               <span className="txt">Go to home page</span>
-            </NavLink>
+            </a>
           </div>
         </div>
       </section>
