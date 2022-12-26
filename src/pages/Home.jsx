@@ -17,20 +17,6 @@ const Home = () => {
           className="icon-layer-three"
           style={{ backgroundImage: "url(images/background/pattern-12.png)" }}
         ></div>
-        {/* <ul className="social-box">
-          <li>
-            <a href="#" className="fa fa-facebook-f"></a>
-          </li>
-          <li>
-            <a href="#" className="fa fa-linkedin"></a>
-          </li>
-          <li>
-            <a href="#" className="fa fa-twitter"></a>
-          </li>
-          <li>
-            <a href="#" className="fa fa-google"></a>
-          </li>
-        </ul> */}
 
         <div className="auto-container">
           <div className="row clearfix">
@@ -39,25 +25,6 @@ const Home = () => {
                 <h1 style={{ marginTop: "10px" }}>
                   Compiling your ideas, to generate desired solutions
                 </h1>
-                {/* <div className="text">
-                  World leading reliable research &amp; AI based Data Analytics
-                  solutions for Big Data companies and consumer business
-                  products
-                </div> */}
-                {/* <div className="clearfix">
-                  <a
-                    href="https://www.youtube.com/watch?v=kxPCFljwJws"
-                    className="lightbox-image video-box"
-                  >
-                    <span className="fa fa-play">
-                      <i className="ripple"></i>
-                    </span>{" "}
-                    WATCH VIDEO
-                  </a>
-                  <a href="about.html" className="theme-btn btn-style-three">
-                    <span className="txt">about us</span>
-                  </a>
-                </div> */}
               </div>
             </div>
 
@@ -308,6 +275,199 @@ const Home = () => {
       </section>
       {/* we provide engg end */}
 
+      {/* clients start */}
+      <section className="call-to-action-section style-two mt-5 pt-5">
+        <div className="auto-container">
+          <div className="sec-title centered mb-0">
+            <h2>Our Clients</h2>
+          </div>
+          <div className="row clearfix">
+            <div
+              className="title-column col-lg-5 col-md-12 col-sm-12"
+              style={{ marginLeft: "auto", marginRight: "auto" }}
+            >
+              <div className="inner-column">
+                <div className="sec-title centered">
+                  <div className="title">USA/UK</div>
+                </div>
+                <div className="row">
+                  <div
+                    className="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12"
+                    style={{ display: "inline-block" }}
+                  >
+                    <div className="inner-box">
+                      <figure className="image-box">
+                        <img src="images/gallery/1.jpg" alt="" />
+                      </figure>
+                      <div className="lower-content pt-0">
+                        <h5 style={{ textAlign: "center" }}>Logo</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12"
+                    style={{ display: "inline-block" }}
+                  >
+                    <div className="inner-box">
+                      <figure className="image-box">
+                        <img src="images/gallery/1.jpg" alt="" />
+                      </figure>
+                      <div className="lower-content pt-0">
+                        <h5 style={{ textAlign: "center" }}>Logo</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12"
+                    style={{ display: "inline-block" }}
+                  >
+                    <div className="inner-box">
+                      <figure className="image-box">
+                        <img src="images/gallery/1.jpg" alt="" />
+                      </figure>
+                      <div className="lower-content pt-0">
+                        <h5 style={{ textAlign: "center" }}>Logo</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12"
+                    style={{ display: "inline-block" }}
+                  >
+                    <div className="inner-box">
+                      <figure className="image-box">
+                        <img src="images/gallery/1.jpg" alt="" />
+                      </figure>
+                      <div className="lower-content pt-0">
+                        <h5 style={{ textAlign: "center" }}>Logo</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12"
+                    style={{ display: "inline-block" }}
+                  >
+                    <div className="inner-box">
+                      <figure className="image-box">
+                        <img src="images/gallery/1.jpg" alt="" />
+                      </figure>
+                      <div className="lower-content pt-0">
+                        <h5 style={{ textAlign: "center" }}>Logo</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12"
+                    style={{ display: "inline-block" }}
+                  >
+                    <div className="inner-box">
+                      <figure className="image-box">
+                        <img src="images/gallery/1.jpg" alt="" />
+                      </figure>
+                      <div className="lower-content pt-0">
+                        <h5 style={{ textAlign: "center" }}>Logo</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="title-column col-lg-5 col-md-12 col-sm-12"
+              style={{ marginLeft: "auto", marginRight: "auto" }}
+            >
+              <div className="inner-column">
+                <div className="sec-title centered">
+                  <div className="title">INDIA</div>
+                </div>
+                <div className="row">
+                  <div
+                    className="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12"
+                    style={{ display: "inline-block" }}
+                  >
+                    <div className="inner-box">
+                      <figure className="image-box">
+                        <img src="images/gallery/1.jpg" alt="" />
+                      </figure>
+                      <div className="lower-content pt-0">
+                        <h5 style={{ textAlign: "center" }}>Logo</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12"
+                    style={{ display: "inline-block" }}
+                  >
+                    <div className="inner-box">
+                      <figure className="image-box">
+                        <img src="images/gallery/1.jpg" alt="" />
+                      </figure>
+                      <div className="lower-content pt-0">
+                        <h5 style={{ textAlign: "center" }}>Logo</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12"
+                    style={{ display: "inline-block" }}
+                  >
+                    <div className="inner-box">
+                      <figure className="image-box">
+                        <img src="images/gallery/1.jpg" alt="" />
+                      </figure>
+                      <div className="lower-content pt-0">
+                        <h5 style={{ textAlign: "center" }}>Logo</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12"
+                    style={{ display: "inline-block" }}
+                  >
+                    <div className="inner-box">
+                      <figure className="image-box">
+                        <img src="images/gallery/1.jpg" alt="" />
+                      </figure>
+                      <div className="lower-content pt-0">
+                        <h5 style={{ textAlign: "center" }}>Logo</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12"
+                    style={{ display: "inline-block" }}
+                  >
+                    <div className="inner-box">
+                      <figure className="image-box">
+                        <img src="images/gallery/1.jpg" alt="" />
+                      </figure>
+                      <div className="lower-content pt-0">
+                        <h5 style={{ textAlign: "center" }}>Logo</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="gallery-block all mix optimization development media col-lg-4 col-md-6 col-sm-12"
+                    style={{ display: "inline-block" }}
+                  >
+                    <div className="inner-box">
+                      <figure className="image-box">
+                        <img src="images/gallery/1.jpg" alt="" />
+                      </figure>
+                      <div className="lower-content pt-0">
+                        <h5 style={{ textAlign: "center" }}>Logo</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* clients end */}
+
       {/* take to next level start */}
       <section
         className="call-to-action-section-two"
@@ -346,9 +506,6 @@ const Home = () => {
         </div>
       </section>
       {/* take to next level end */}
-
-      {/* clients start */}
-      {/* clients end */}
 
       {/* engagement model start */}
       <section className="newsletter-section mt-5">
@@ -919,206 +1076,6 @@ const Home = () => {
         </div>
       </section>
       {/* tech we are excel start */}
-
-      {/* clients start */}
-      <section className="clients-section style-three">
-        <div className="auto-container">
-          <div className="sponsors-outer">
-            <ul className="sponsors-carousel owl-carousel owl-theme owl-loaded owl-drag">
-              <div className="owl-stage-outer">
-                <div
-                  className="owl-stage"
-                  style={{
-                    transform: "translate3d(0px, 0px, 0px)",
-                    transition: "all 0.5s ease 0s",
-                    width: "4212px",
-                  }}
-                >
-                  <div className="owl-item cloned" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/4.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item cloned" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/5.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item cloned" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/1.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item cloned" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/2.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item cloned" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/3.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item active" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/1.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item active" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/2.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item active" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/3.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item active" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/4.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item active" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/5.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/1.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/2.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/3.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item cloned" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/1.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item cloned" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/2.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item cloned" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/3.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item cloned" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/4.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                  <div className="owl-item cloned" style={{ width: "234px" }}>
-                    <li className="slide-item">
-                      <figure className="image-box">
-                        <a href="#">
-                          <img src="images/clients/5.png" alt="" />
-                        </a>
-                      </figure>
-                    </li>
-                  </div>
-                </div>
-              </div>
-              <div className="owl-nav">
-                <div className="owl-prev">
-                  <span className="fa fa-angle-left"></span>
-                </div>
-                <div className="owl-next">
-                  <span className="fa fa-angle-right"></span>
-                </div>
-              </div>
-              <div className="owl-dots">
-                <div className="owl-dot active">
-                  <span></span>
-                </div>
-                <div className="owl-dot">
-                  <span></span>
-                </div>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </section>
-      {/* clients end */}
 
       {/* get in touch start */}
       <section
